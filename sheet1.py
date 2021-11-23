@@ -46,11 +46,14 @@ numbers = [386, 462, 47, 418, 907, 344, 236, 375, 823, 566, 597, 978, 328, 615,
 687, 217, 815, 67, 104, 58, 512, 24, 892, 894, 767, 553, 81, 379, 843, 831, 445, 
 742, 717, 958,743, 527]
 
-i=0
-while(numbers[i]!=412):
-    if numbers[i]%2==0:
-        print(numbers[i])
-    i=i+1
+for i in numbers:
+    if i==237:
+	print(i)
+	break
+    elif i % 2==0:
+	print(i)
+	 
+			
 
 #Question7
 color_list_1 = set(["White", "Black", "Red"]) 
